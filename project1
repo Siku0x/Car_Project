@@ -10,7 +10,7 @@ public class Car {
     }
 
     public void displayInfo() {
-        System.out.println(year + " " + make + " " + model);
+        System.out.println(year + " " + make - " " + model);
     }
 
     public static void main(String[] args) {
@@ -18,3 +18,4 @@ public class Car {
         myCar.displayInfo();
     }
 }
+
